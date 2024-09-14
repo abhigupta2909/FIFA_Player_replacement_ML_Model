@@ -78,29 +78,6 @@ The tool provides the following key outputs:
 
 ![stricking_feature](https://github.com/user-attachments/assets/158c0b95-897c-4013-a825-071f6d887e40)
 
-## Evaluation Set
-
-[Uploading evaluation_Transferred player,Replacement
-Cristiano Ronaldo,P. Dybala
-Neymar Jr,E. Hazard
-P. Dybala,A. Griezmann
-T. Courtois,G. Buffon
-S. Umtiti,David Luiz
-K. Benzema,Iago Aspas
-Thiago Silva,Sergio Ramos
-H. Kane,R. Lewandowski
-R. Lewandowski,H. Kane
-G. Chiellini,Pepe
-C. Eriksen,Coutinho
-T. Kroos,Isco
-Isco,Iniesta
-A. Vidal,B. Matuidi
-C. Immobile,R. Lukaku
-H. Son,Neymar Jr
-L. Messi,Neymar Jr
-L. Suarez,H. Kane
-set.csv…]()
-
 
 ## Example Output
 
@@ -111,6 +88,26 @@ set.csv…]()
 | P. Dybala             | A. Griezmann          |
 | H. Kane               | R. Lewandowski        |
 | L. Messi              | Neymar Jr             |
+
+
+## Evaluation Set CSV
+
+The `evaluation_set.csv` file contains the following columns:
+
+- **Transferred player:** The name of the player who has been transferred or is unavailable.
+- **Replacement:** The suggested replacement player for the transferred player.
+
+Here is a preview of the CSV file:
+
+| Transferred Player    | Suggested Replacement |
+|-----------------------|-----------------------|
+| Cristiano Ronaldo     | P. Dybala             |
+| Neymar Jr             | E. Hazard             |
+| P. Dybala             | A. Griezmann          |
+| T. Courtois           | G. Buffon             |
+| S. Umtiti             | David Luiz            |
+
+You can use this CSV file as an evaluation set to test or validate the model’s predictions.
 
 ## Contributing
 
