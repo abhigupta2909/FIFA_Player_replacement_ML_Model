@@ -1,4 +1,3 @@
-[evaluation_set.csv](https://github.com/user-attachments/files/17003283/evaluation_set.csv)
 # FIFA Player Replacement ML Tool
 
 This machine learning tool identifies potential replacements for soccer players based on various performance metrics and data-driven insights. By analyzing player statistics, the model suggests alternative players who could perform similarly or replace key players in specific roles or formations.
