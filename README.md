@@ -1,4 +1,4 @@
-
+[evaluation_set.csv](https://github.com/user-attachments/files/17003283/evaluation_set.csv)
 # FIFA Player Replacement ML Tool
 
 This machine learning tool identifies potential replacements for soccer players based on various performance metrics and data-driven insights. By analyzing player statistics, the model suggests alternative players who could perform similarly or replace key players in specific roles or formations.
@@ -65,6 +65,42 @@ The tool provides the following key outputs:
 1. Prepare your dataset with player statistics in CSV format.
 2. Run the notebook to preprocess the data and train the model.
 3. View the model's accuracy and suggested player replacements in the outputs.
+
+## Evaluations
+
+![confusion_matrix](https://github.com/user-attachments/assets/d38509fd-4f1b-4338-8388-9a74284f0cb6)
+
+![defending_feature](https://github.com/user-attachments/assets/5e433c40-cdd5-4f09-b966-e63cc128fa1f)
+
+![goal_keeping](https://github.com/user-attachments/assets/9b0d71f3-963f-4c76-b8bd-4207f9dd1f86)
+
+![midfeilding_feature](https://github.com/user-attachments/assets/5889fd7a-71ce-4182-83a5-9ee8070052e8)
+
+![stricking_feature](https://github.com/user-attachments/assets/158c0b95-897c-4013-a825-071f6d887e40)
+
+## Evaluation Set
+
+[Uploading evaluation_Transferred player,Replacement
+Cristiano Ronaldo,P. Dybala
+Neymar Jr,E. Hazard
+P. Dybala,A. Griezmann
+T. Courtois,G. Buffon
+S. Umtiti,David Luiz
+K. Benzema,Iago Aspas
+Thiago Silva,Sergio Ramos
+H. Kane,R. Lewandowski
+R. Lewandowski,H. Kane
+G. Chiellini,Pepe
+C. Eriksen,Coutinho
+T. Kroos,Isco
+Isco,Iniesta
+A. Vidal,B. Matuidi
+C. Immobile,R. Lukaku
+H. Son,Neymar Jr
+L. Messi,Neymar Jr
+L. Suarez,H. Kane
+set.csv…]()
+
 
 ## Example Output
 
